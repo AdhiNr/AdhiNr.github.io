@@ -1,0 +1,142 @@
+:root {
+  --white: #ffff;
+  --primary: #f18d28;
+  --bg: #010101;
+}
+
+section {
+  padding-top: 8rem;
+}
+
+body {
+  background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
+}
+
+.link {
+  display: none;
+}
+
+/* My Navbar */
+
+.navbar {
+  background-color: rgb(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(4px);
+}
+
+/* Merubah Navbar Memiliki Latar Orange */
+.navbar .navbar-nav .nav-item a:hover {
+  color: var(--primary);
+}
+
+.navbar .navbar-nav .nav-item a {
+  font-size: 20px;
+}
+
+.navbar img {
+  width: 60px;
+}
+
+/* Tampilan Pada Jumbotron */
+.jumbotron {
+  margin-top: -6rem;
+  padding-top: 15rem;
+  background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
+}
+
+.jumbotron img {
+  width: 180px;
+}
+
+.jumbotron h1 {
+  font-size: 20px;
+  transform: translateY(10px);
+  font-weight: 400;
+  color: var(--white);
+}
+
+.jumbotron p {
+  font-size: 15px;
+  transform: translateY(10px);
+  font-weight: 400;
+  color: var(--white);
+}
+
+/* Portofolio */
+
+.portofolio {
+  background: linear-gradient(#fffeff 0%, #ffffffd5 40%, #fdfdfd00 100%);
+  padding-bottom: 120px;
+}
+
+.container .col h2 {
+  font-size: 25px;
+  transform: translateY(-10px);
+}
+
+.portofolio .card {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.portofolio .card-header {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.portofolio .card-body {
+  text-align: left;
+}
+
+.portofolio .card-body p {
+  text-align: left;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+
+/* Achievement */
+
+.Achievement .col h2 {
+  font-size: 25px;
+  transform: translateY(-20px);
+}
+
+/* Project */
+
+.Project {
+  background: linear-gradient(#fffeff 0%, #ffffffd5 40%, #fdfdfd00 100%);
+  padding-bottom: 70px;
+}
+
+.Project .col h2 {
+  font-size: 25px;
+  transform: translateY(-20px);
+}
+
+/* Contact Me */
+
+.contact .col h2 {
+  font-size: 25px;
+  transform: translateY(10px);
+}
+
+/* Footer */
+footer {
+  padding: 3rem;
+  background-color: var(--pink);
+  color: white;
+}
+
+footer a {
+  color: var(--bg);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  margin: 0.5rem;
+}
